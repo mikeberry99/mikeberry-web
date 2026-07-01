@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "/"
+baseURL = "https://mikeberry.dev/"
 # site title 
 title = "Mike Berry | Tech Adventures"
 # theme
@@ -132,25 +132,7 @@ link = "https://twitter.com/MikeBerry99"
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/MikeBerry99"
 
-
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-
-####################### Banner #######################################
-[Languages.en.banner]
-bg_image = "https://cdn.mikeberry.dev/images/banner-shape.png"
-title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Tech</strong>"
-image = "https://cdn.mikeberry.dev/images/banner-image.webp"
-
-######################## About Me Widget ###############################
-[Languages.en.about_me]
-title = "Hi, I'm Mike Berry"
-bio = "Engineering Leader | DevOps | Product Managment | Fintech"
-
+############################## Social Profile (sidebar) ##########################
 [[params.social_profile]]
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://www.linkedin.com/in/mikeberry5/"
@@ -160,6 +142,26 @@ link = "https://twitter.com/MikeBerry99"
 [[params.social_profile]]
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/MikeBerry99"
+
+
+################################### English language #####################################
+[Languages.en]
+label = "En"
+locale = "en-us"
+contentDir = "content/english"
+weight = 1
+
+####################### Banner #######################################
+[Languages.en.params.banner]
+bg_image = "https://cdn.mikeberry.dev/images/banner-shape.png"
+title = "Hi, I'm Mike Berry</br>this site is all about my</br> <strong>Adventures in Tech</strong>"
+image = "https://cdn.mikeberry.dev/images/banner-image.webp"
+
+######################## About Me Widget ###############################
+[Languages.en.params.about_me]
+title = "Hi, I'm Mike Berry"
+bio = "Engineering Leader | DevOps | Product Managment | Fintech"
+
 
 ######################## call to action ###############################
 [params.cta]

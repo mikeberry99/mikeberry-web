@@ -1,74 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Showcase on Mike Berry | Tech Adventures</title>
-    <link>/showcase/</link>
-    <description>Recent content in Showcase on Mike Berry | Tech Adventures</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 05:00:00 +0000</lastBuildDate><atom:link href="/showcase/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Podcast - Tech Talk - DevOps is dead?</title>
-      <link>/showcase/media-2/</link>
-      <pubDate>Wed, 21 Dec 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/media-2/</guid>
-      <description>Episode Thirty – DevOps is dead? Our latest Tech Talk podcast brings in Mike Berry, a tech exec from ANZ to discuss his article “Is DevOps dead?</description>
-    </item>
-    
-    <item>
-      <title>Podcast - Evolution Exchange</title>
-      <link>/showcase/media-1/</link>
-      <pubDate>Fri, 01 Jul 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/media-1/</guid>
-      <description>Creating High Performance Teams Podcast - Evolution Exchange Australia Michael Zaporozhets: Engineering Manager @ Electronic Arts</description>
-    </item>
-    
-    <item>
-      <title>A new retail bank emerges</title>
-      <link>/showcase/media-0/</link>
-      <pubDate>Fri, 28 Oct 2022 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/media-0/</guid>
-      <description>ANZ Plus - creating a digital first cloud based banking platform In 2022 ANZ Bank launch a new digital bank with financial wellbeing at its core called ANZ Plus.</description>
-    </item>
-    
-    <item>
-      <title>Meetup - Cloud Platform Engineering</title>
-      <link>/showcase/conference-3/</link>
-      <pubDate>Wed, 19 Apr 2023 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/conference-3/</guid>
-      <description>Cloud Platform Engineering: Strategies &amp;amp; Lessons Learnt We will discuss cloud-native tooling, FinOps, metrics that matter, role of a platform engineer and more&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Google Cloud Next</title>
-      <link>/showcase/conference-2/</link>
-      <pubDate>Fri, 12 Apr 2019 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/conference-2/</guid>
-      <description>Cloud Next 2019 - Google Cloud DevOps: Speed With Reliability and Security After an earlier talk in Sydney, Australia the Google team asked if I could present at Google Cloud Next in San Francisco.</description>
-    </item>
-    
-    <item>
-      <title>Red Hat Innovation Award Winner</title>
-      <link>/showcase/award-0/</link>
-      <pubDate>Wed, 21 Nov 2018 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/award-0/</guid>
-      <description>ANZ Bank Honored as Red Hat Innovation Awards APAC 2018 Winners Categories: Modern Application Development and Digital Transformation Winner: ANZ Bank</description>
-    </item>
-    
-    <item>
-      <title>DevOps Talks Conference 2018</title>
-      <link>/showcase/conference-0/</link>
-      <pubDate>Mon, 27 Aug 2018 05:00:00 +0000</pubDate>
-      
-      <guid>/showcase/conference-0/</guid>
-      <description>DevOps Talks Conference 2018 - The road to Kubernetes This is the story of how a small 5 person &amp;ldquo;Pitcrew&amp;rdquo; team grew into a 30+ person Platform Engineering Team.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Showcase on Mike Berry | Tech Adventures</title>
+		<link>https://mikeberry.dev/showcase/</link>
+		<description>Recent content in Showcase on Mike Berry | Tech Adventures</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 19 Apr 2023 05:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://mikeberry.dev/showcase/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Podcast - Tech Talk - DevOps is dead?</title>
+				<link>https://mikeberry.dev/showcase/media-2/</link>
+				<pubDate>Wed, 21 Dec 2022 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/media-2/</guid>
+				<description>&lt;h3 id=&#34;episode-thirty--devops-is-dead&#34;&gt;Episode Thirty – DevOps is dead?&lt;/h3&gt;&#xA;&lt;p&gt;Our latest Tech Talk podcast brings in Mike Berry, a tech exec from ANZ to discuss his article “Is DevOps dead?” We go into the ins and outs of how you strike the balance between the develop and platform team, avoiding common bottlenecks, and creating a standard and central experience that fits your environment.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Podcast - Evolution Exchange</title>
+				<link>https://mikeberry.dev/showcase/media-1/</link>
+				<pubDate>Fri, 01 Jul 2022 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/media-1/</guid>
+				<description>&lt;h2 id=&#34;creating-high-performance-teams&#34;&gt;Creating High Performance Teams&lt;/h2&gt;&#xA;&lt;h3 id=&#34;podcast---evolution-exchange-australia&#34;&gt;Podcast - Evolution Exchange Australia&lt;/h3&gt;&#xA;&lt;p&gt;Michael Zaporozhets: Engineering Manager @ Electronic Arts&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A new retail bank emerges</title>
+				<link>https://mikeberry.dev/showcase/media-0/</link>
+				<pubDate>Fri, 28 Oct 2022 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/media-0/</guid>
+				<description>&lt;h2 id=&#34;anz-plus---creating-a-digital-first-cloud-based-banking-platform&#34;&gt;ANZ Plus - creating a digital first cloud based banking platform&lt;/h2&gt;&#xA;&lt;p&gt;In 2022 ANZ Bank launch a new digital bank with financial wellbeing at its core called ANZ Plus. What had started with 10 or so people when I joined became 1,200 by the time I left to move to the UK.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Meetup - Cloud Platform Engineering</title>
+				<link>https://mikeberry.dev/showcase/conference-3/</link>
+				<pubDate>Wed, 19 Apr 2023 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/conference-3/</guid>
+				<description>&lt;h2 id=&#34;cloud-platform-engineering-strategies--lessons-learnt&#34;&gt;Cloud Platform Engineering: Strategies &amp;amp; Lessons Learnt&lt;/h2&gt;&#xA;&lt;p&gt;We will discuss cloud-native tooling, FinOps, metrics that matter, role of a platform engineer and more&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Google Cloud Next</title>
+				<link>https://mikeberry.dev/showcase/conference-2/</link>
+				<pubDate>Fri, 12 Apr 2019 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/conference-2/</guid>
+				<description>&lt;h2 id=&#34;cloud-next-2019---google-cloud-devops-speed-with-reliability-and-security&#34;&gt;Cloud Next 2019 - Google Cloud DevOps: Speed With Reliability and Security&lt;/h2&gt;&#xA;&lt;p&gt;After an earlier talk in Sydney, Australia the Google team asked if I could present at Google Cloud Next in San Francisco. I agreed and prepared a talk about how we use some of the Google tools in our cloud build and deployment pipelines.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Red Hat Innovation Award Winner</title>
+				<link>https://mikeberry.dev/showcase/award-0/</link>
+				<pubDate>Wed, 21 Nov 2018 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/award-0/</guid>
+				<description>&lt;h2 id=&#34;anz-bank-honored-as-red-hat-innovation-awards-apac-2018-winners&#34;&gt;ANZ Bank Honored as Red Hat Innovation Awards APAC 2018 Winners&lt;/h2&gt;&#xA;&lt;h4 id=&#34;categories-modern-application-development-and-digital-transformation&#34;&gt;Categories: Modern Application Development and Digital Transformation&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Winner: ANZ Bank&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>DevOps Talks Conference 2018</title>
+				<link>https://mikeberry.dev/showcase/conference-0/</link>
+				<pubDate>Mon, 27 Aug 2018 05:00:00 +0000</pubDate>
+				<guid>https://mikeberry.dev/showcase/conference-0/</guid>
+				<description>&lt;h2 id=&#34;devops-talks-conference-2018---the-road-to-kubernetes&#34;&gt;DevOps Talks Conference 2018 - The road to Kubernetes&lt;/h2&gt;&#xA;&lt;p&gt;This is the story of how a small 5 person &amp;ldquo;Pitcrew&amp;rdquo; team grew into a 30+ person Platform Engineering Team. It discusses the importance of starting with culture first, how to create urgency to accept change and how we implemented Kubernetes to improve our end-to-end flow. It is a collection of amusing stories, important lessons we learned (including few failures) and the current status of our DevOps transformation.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
