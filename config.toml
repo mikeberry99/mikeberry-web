@@ -10,8 +10,8 @@ paginate = "5"
 summaryLength = "10"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-# google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+# google analytics - legacy key (unused)
+# googleAnalytics = ""
 
 # disable language
 disableLanguages = ["fr"] # desable language from here
@@ -20,6 +20,9 @@ disableLanguages = ["fr"] # desable language from here
 home = ["HTML", "AMP", "RSS", "JSON"]
 [markup.goldmark.renderer]
 unsafe= true
+
+[services.googleAnalytics]
+id = "G-4CDGWW0KWD"
 
 ######################### Default Parameters ###########################
 [params]
@@ -45,8 +48,8 @@ menu_align = "center"
 # Blog-details page sidebar
 sidebar = "right" # Sidebar value ("left", "right" or false)
 
-# google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "G-4CDGWW0KWD" # example: G-XXXXXXXXXX
+# google tag manager (GTM- IDs only — not used)
+# google_tag_manager = ""
 
 ######################## Site Variables #########################
 [params.variables]
