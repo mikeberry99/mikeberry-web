@@ -106,8 +106,12 @@
           myShuffle.filter(input.value);
         }
       });
+
+      window.addEventListener('load', function() {
+        myShuffle.update();
+      });
     }
-	}
-  shuffleInit()
+  }
+  shuffleInit();
 
 })(jQuery);
