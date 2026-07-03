@@ -1,5 +1,5 @@
 {
-    "name": "hugo",
+    "name": "mikeberry-web",
     "compatibility_date": "2026-02-17",
     "build": {
         "command": "hugo --gc --minify"
