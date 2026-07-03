@@ -1,38 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>DevOps on Mike Berry | Tech Adventures</title>
-		<link>https://mikeberry.dev/categories/devops/</link>
-		<description>Recent content in DevOps on Mike Berry | Tech Adventures</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://mikeberry.dev/categories/devops/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Safety Culture and DevOps Part 2</title>
-				<link>https://mikeberry.dev/posts/post-4/</link>
-				<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-				<guid>https://mikeberry.dev/posts/post-4/</guid>
-				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to the second part of our two-part series on DevOps and Safety Culture. In case you missed it, we highly recommend going back and reading &lt;a href=&#34;https://mikeberry.dev/posts/post-3/&#34;&gt;Safety Culture and DevOps - Part 1&lt;/a&gt;, where we explored some historical aspects of Safety Culture. In this article, we will review the research findings from successful organizations and apply it to software engineering.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Safety Culture and DevOps</title>
-				<link>https://mikeberry.dev/posts/post-3/</link>
-				<pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-				<guid>https://mikeberry.dev/posts/post-3/</guid>
-				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;One of the things I love about DevOps is the broad base of knowledge that the principles and practises come from. While much of the original thinking around Agile was tied to software development, DevOps has always taken the wider view of improving the overall system. It uses ideas taken from Lean manufacturing in Japan and Safety Culture in the airline industry. DevOps builds on the work of management thinking pioneers Peter Drucker and W. Edwards Deming and applies them in the context of modern software management.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Is DevOps Dead?</title>
-				<link>https://mikeberry.dev/posts/post-2/</link>
-				<pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-				<guid>https://mikeberry.dev/posts/post-2/</guid>
-				<description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;In 2015 the DevOps movement was gaining momentum. The DevOpsDays conferences were expanding around the world, from 22 events in 2015 to 42 the following year. The &lt;a href=&#34;https://www.devops-research.com/research.html&#34;&gt;&amp;ldquo;State of DevOps (2015)&amp;rdquo;&lt;/a&gt; report had companies of all sizes talking about how to “deploying 30x more frequently with 200x shorter lead times”.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Mike Berry | Tech Adventures</title><link>https://mikeberry.dev/categories/devops/</link><description>Recent content in DevOps on Mike Berry | Tech Adventures</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mikeberry.dev/categories/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Safety Culture and DevOps Part 2</title><link>https://mikeberry.dev/posts/post-4/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://mikeberry.dev/posts/post-4/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Welcome to the second part of our two-part series on DevOps and Safety Culture. In case you missed it, we highly recommend going back and reading &lt;a href="https://mikeberry.dev/posts/post-3/"&gt;Safety Culture and DevOps - Part 1&lt;/a&gt;, where we explored some historical aspects of Safety Culture. In this article, we will review the research findings from successful organizations and apply it to software engineering.&lt;/p&gt;</description></item><item><title>Safety Culture and DevOps</title><link>https://mikeberry.dev/posts/post-3/</link><pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate><guid>https://mikeberry.dev/posts/post-3/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;One of the things I love about DevOps is the broad base of knowledge that the principles and practises come from. While much of the original thinking around Agile was tied to software development, DevOps has always taken the wider view of improving the overall system. It uses ideas taken from Lean manufacturing in Japan and Safety Culture in the airline industry. DevOps builds on the work of management thinking pioneers Peter Drucker and W. Edwards Deming and applies them in the context of modern software management.&lt;/p&gt;</description></item><item><title>Is DevOps Dead?</title><link>https://mikeberry.dev/posts/post-2/</link><pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate><guid>https://mikeberry.dev/posts/post-2/</guid><description>&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In 2015 the DevOps movement was gaining momentum. The DevOpsDays conferences were expanding around the world, from 22 events in 2015 to 42 the following year. The &lt;a href="https://www.devops-research.com/research.html"&gt;&amp;ldquo;State of DevOps (2015)&amp;rdquo;&lt;/a&gt; report had companies of all sizes talking about how to “deploying 30x more frequently with 200x shorter lead times”.&lt;/p&gt;</description></item></channel></rss>
