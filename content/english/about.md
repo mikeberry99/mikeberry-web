@@ -1,8 +1,8 @@
 ---
 title: "About"
 layout: "about"
-image: "https://cdn.mikeberry.dev/images/about.webp"
-background_shape: "https://cdn.mikeberry.dev/images/banner-shape.png"
+image: "/images/about.webp"
+background_shape: "/images/banner-shape.png"
 draft: false
 
 # My Experiences
