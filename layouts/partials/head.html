@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+<title>{{ .Title }}</title>
+{{ if .IsHome  }}
+<meta property="og:type" content="website">
+{{ else if .Params.Image }}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ .PublishDate }}">
+<meta property="og:image" content="{{ .Params.Image | absURL }}">
+<meta name="image" property="og:image" content="{{ .Params.Image | absURL }}">
+{{ end }}
+<meta name="title" content="{{ .Title }}">
+<meta name="description" property="og:description" content="{{ with .Params.description }}{{.}}{{else}}{{ with site.Params.description }}{{.}}{{end}}{{end}}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Params.description }}{{.}}{{else}}{{ with site.Params.description }}{{.}}{{end}}{{end}}">
+{{ with site.Params.keywords }}
+<meta name="keywords" content="{{ . }}">
+<meta name="article:tag" content="{{ . }}">
+{{ end }}
+{{ with site.Params.author }}
+<meta name="author" property="article:author" content="{{ . }}">
+{{ end }}
+{{ hugo.Generator }}
+
+<!-- LCP Image Preload -->
+{{ if .IsHome }}
+  {{ with site.Params.banner.image }}
+    <link rel="preload" as="image" href="{{ . | absURL }}">
+  {{ end }}
+{{ else if eq .Layout "about" }}
+  {{ with .Params.image }}
+    <link rel="preload" as="image" href="{{ . | absURL }}">
+  {{ end }}
+{{ else if and (eq .Section "showcase") .IsPage }}
+  {{ range first 1 .Params.tools_images }}
+    <link rel="preload" as="image" href="{{ .image | absURL }}">
+  {{ end }}
+{{ else if and (eq .Section "showcase") .IsNode }}
+  {{ range first 2 .Pages }}
+    {{ with .Params.thumbnail }}
+      <link rel="preload" as="image" href="{{ . | absURL }}">
+    {{ end }}
+  {{ end }}
+{{ else if and (or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news")) .IsPage }}
+  {{ with .Params.Image }}
+    <link rel="preload" as="image" href="{{ . | absURL }}">
+  {{ end }}
+{{ end }}
+
+{{ "<!-- mobile responsive meta -->" | safeHTML}}<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+{{ "<!-- Favicon -->" | safeHTML}}<link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
+<!-- google analytics -->
+{{ template "_internal/google_analytics.html" . }}
+<!-- google tag manager -->
+{{ partial "gtm.html" . }}

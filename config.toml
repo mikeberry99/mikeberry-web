@@ -38,7 +38,7 @@ mainSection = "posts"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Mike Berry 2022"
+copyright = "Mike Berry 2026"
 
 # search *** true or false (if Search is disable Menu will align in Right) ***
 search = false
