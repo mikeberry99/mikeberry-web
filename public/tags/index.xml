@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Mike Berry | Tech Adventures</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://mikeberry.dev/tags/</link>
 		<description>Recent content in Tags on Mike Berry | Tech Adventures</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,54 +12,54 @@
 		
 			<lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://mikeberry.dev/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Agile</title>
-				<link>http://localhost:1313/tags/agile/</link>
+				<link>https://mikeberry.dev/tags/agile/</link>
 				<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/agile/</guid>
+				<guid>https://mikeberry.dev/tags/agile/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>DevOps</title>
-				<link>http://localhost:1313/tags/devops/</link>
+				<link>https://mikeberry.dev/tags/devops/</link>
 				<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/devops/</guid>
+				<guid>https://mikeberry.dev/tags/devops/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Safety Culture</title>
-				<link>http://localhost:1313/tags/safety-culture/</link>
+				<link>https://mikeberry.dev/tags/safety-culture/</link>
 				<pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/safety-culture/</guid>
+				<guid>https://mikeberry.dev/tags/safety-culture/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Platform Engineering</title>
-				<link>http://localhost:1313/tags/platform-engineering/</link>
+				<link>https://mikeberry.dev/tags/platform-engineering/</link>
 				<pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/platform-engineering/</guid>
+				<guid>https://mikeberry.dev/tags/platform-engineering/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Australia</title>
-				<link>http://localhost:1313/tags/australia/</link>
+				<link>https://mikeberry.dev/tags/australia/</link>
 				<pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/australia/</guid>
+				<guid>https://mikeberry.dev/tags/australia/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Fintech</title>
-				<link>http://localhost:1313/tags/fintech/</link>
+				<link>https://mikeberry.dev/tags/fintech/</link>
 				<pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/fintech/</guid>
+				<guid>https://mikeberry.dev/tags/fintech/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Regtech</title>
-				<link>http://localhost:1313/tags/regtech/</link>
+				<link>https://mikeberry.dev/tags/regtech/</link>
 				<pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/regtech/</guid>
+				<guid>https://mikeberry.dev/tags/regtech/</guid>
 				<description></description>
 			</item>
 	</channel>

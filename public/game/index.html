@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/game/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A futuristic cyberpunk codebreaking puzzle game. Crack the encrypted security protocols, analyze diagnostic feedback, and break the firewall before your attempts run out.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hex_Breaker">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <title>Hex_Breaker — Crack the Security Protocol</title>
+  <link rel="canonical" href="https://mikeberry.dev/game" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mikeberry.dev/game">
+  <meta property="og:title" content="Hex_Breaker — Crack the Security Protocol">
+  <meta property="og:description" content="A futuristic cyberpunk codebreaking puzzle game. Crack the encrypted security protocols, analyze diagnostic feedback, and break the firewall.">
+  <meta property="og:image" content="https://mikeberry.dev/game/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://mikeberry.dev/game">
+  <meta property="twitter:title" content="Hex_Breaker — Crack the Security Protocol">
+  <meta property="twitter:description" content="A futuristic cyberpunk codebreaking puzzle game. Crack the encrypted security protocols, analyze diagnostic feedback, and break the firewall.">
+  <meta property="twitter:image" content="https://mikeberry.dev/game/og-image.jpg">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Hex_Breaker",
+    "url": "https://mikeberry.dev/game",
+    "description": "A futuristic cyberpunk codebreaking puzzle game where players decrypt secure firewall sequences using diagnostic signals.",
+    "applicationCategory": "GameApplication",
+    "genre": "Puzzle",
+    "operatingSystem": "All",
+    "browserRequirements": "Requires HTML5 support"
+  }
+  </script>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Google Analytics Tracking -->
+  <script>
+    // --- GOOGLE ANALYTICS CONFIGURATION ---
+    // Change this ID if your Measurement ID changes.
+    const GA_MEASUREMENT_ID = 'G-4CDGWW0KWD';
+    // --------------------------------------
+
+    if (GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+      // Dynamically load the Google Tag script
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', GA_MEASUREMENT_ID);
+
+      // JS helper function called from Flutter Dart to track game mode select
+      window.trackGameMode = function (modeName) {
+        gtag('event', 'game_start', {
+          'game_mode': modeName
+        });
+      };
+
+      // JS helper function called from Flutter Dart to track page visits
+      window.trackPageVisit = function (pageName) {
+        gtag('event', 'page_visit', {
+          'page_name': pageName
+        });
+      };
+
+      // JS helper function to track successfully solved games
+      window.trackGameWon = function (modeName, attempts) {
+        gtag('event', 'game_won', {
+          'game_mode': modeName,
+          'attempts': attempts
+        });
+      };
+
+      // JS helper function to track failed games (exceeded attempts)
+      window.trackGameLost = function (modeName, attempts) {
+        gtag('event', 'game_lost', {
+          'game_mode': modeName,
+          'attempts': attempts
+        });
+      };
+    } else {
+      // Fallback stubs for development or if analytics is disabled
+      const ENABLE_DEBUG_LOGS = false;
+      window.trackGameMode = function (modeName) {
+        if (ENABLE_DEBUG_LOGS) console.log('[Analytics Mock] Game start: ' + modeName);
+      };
+      window.trackPageVisit = function (pageName) {
+        if (ENABLE_DEBUG_LOGS) console.log('[Analytics Mock] Page visit: ' + pageName);
+      };
+      window.trackGameWon = function (modeName, attempts) {
+        if (ENABLE_DEBUG_LOGS) console.log('[Analytics Mock] Game won: ' + modeName + ' in ' + attempts + ' attempts');
+      };
+      window.trackGameLost = function (modeName, attempts) {
+        if (ENABLE_DEBUG_LOGS) console.log('[Analytics Mock] Game lost: ' + modeName + ' after ' + attempts + ' attempts');
+      };
+    }
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>
